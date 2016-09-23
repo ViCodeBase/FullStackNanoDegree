@@ -1,7 +1,12 @@
 import webbrowser
 import time
 
-while(i < 3):
-	time.sleep(5)
+startTime = time.ctime()
+print "The Program started at - " + startTime
+startLoop = 1
+endLoop = 5
+while(startLoop < endLoop):
+	time.sleep(1*60)
 	webbrowser.open("https://www.youtube.com/watch?v=hXh35CtnSyU")
-	i=i+1
+	print "Bulleya - Ranbir, Aishwarya Rai and Anushka Rai invoked at - " + time.ctime()
+	startLoop=startLoop+1
