@@ -1,0 +1,122 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+.screenshot {
+    max-width : 600px;
+    margin-left : 5%;
+    margin-right : 1%;
+    margin-bottom : 5%;
+}
+
+.title {
+	font-family : Arial;
+    font-size: 50px;
+    background-color:#c4c4d6;
+    max-width : 450px;
+    margin-left : 25%;
+    margin-right : 20%;
+    margin-bottom : 2%;
+    text-align:center;
+}
+
+.hr_default {
+    height: 2px;
+    background-color:#555;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 5%;
+    width: 100%;
+}
+
+.hr_blank {
+    height: 2px;
+    background-color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 5%;
+    width: 100%;
+}
+
+.profile_header {
+	color : #d6d5d5;
+}
+
+.profile_img {
+    width : 50%;
+	height : 50%;
+	max-width : 50%
+	max-height : 50%
+}
+
+.header {
+	background-color : black;
+	padding-left : 10%
+	padding-right : 10%
+	margin : -10px
+}
+
+.description {
+	font-family : Arial;
+    font-size: 16px;
+    max-width : 1000px;
+    margin-right : 5%;
+    margin-bottom : 5%;
+
+}
+.padding_content {
+	
+}
+.app {
+    display: -webkit-flex;
+    display: flex;
+}
+
+
+div.one {  
+    padding: 0.5%;
+}
+
+h1 {
+	font-family: Calibri;
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+h3 {
+	font-family: Calibri;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+p {
+	font-family: Calibri;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+blockquote {
+	font-family: Calibri;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+pre {
+	font-family: Calibri;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5714px;
+}
